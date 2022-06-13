@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Buildfeature2Env') {
+        stage('Buildfeature3Env') {
             steps {
-                echo 'Buildingfeature2tEnv..'
+                echo 'Buildingfeature3tEnv..'
             }
         }
-        stage('Testfeature2Env') {
+        stage('Testfeature3Env') {
             steps {
-                echo 'Testingfeature2Env..'
+                echo 'Testingfeature3Env..'
             }
         }
-        stage('Deployfeature2Env') {
+        stage('Deployfeature3Env') {
             steps {
-                echo 'Deployingfeature2Env....'
+                echo 'Deployingfeature3Env....'
             }
         }
     }
