@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('BuildTestEnv') {
+            steps {
+                echo 'BuildingTestEnv..'
+            }
+        }
+        stage('TestTestEnv') {
+            steps {
+                echo 'TestingTestEnv..'
+            }
+        }
+        stage('DeployTestEnv') {
+            steps {
+                echo 'DeployingTestEnv....'
+            }
+        }
+    }
+}
